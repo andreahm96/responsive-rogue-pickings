@@ -224,6 +224,27 @@ footer span {
 }
 
 /***** desktop *****/
-@@media (min-width: 1200px) {
-
+@media (min-width: 1200px) {
+	header h1{
+		width: 50%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-flow: row wrap;
+	}
+	header nav {
+		padding: 46px 0;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		flex-flow: row wrap;
+		width: 50%;
+	}
+	header nav ul li {
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 0.875rem;
+		padding: 0px 10px;
+		display: flex;
+		flex-flow: column wrap;
 }
