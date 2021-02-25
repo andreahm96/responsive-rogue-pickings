@@ -170,8 +170,8 @@ header nav ul li a{
 
 .reviews {
 	color: #333;
-	font-size: 1rem;
-	line-height: 21px;
+	font-size: .75rem;
+	line-height: 18px;
 }
 
 .address {
@@ -224,3 +224,6 @@ footer span {
 }
 
 /***** desktop *****/
+@@media (min-width: 1200px) {
+
+}
