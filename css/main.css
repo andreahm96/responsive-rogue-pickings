@@ -231,6 +231,7 @@ footer span {
 		justify-content: flex-start;
 		align-items: center;
 		flex-flow: row wrap;
+		border-bottom: 0px solid;
 	}
 	header nav {
 		padding: 46px 0;
@@ -245,6 +246,5 @@ footer span {
 		font-weight: 700;
 		font-size: 0.875rem;
 		padding: 0px 10px;
-		display: flex;
-		flex-flow: column wrap;
+		display: inline;
 }
